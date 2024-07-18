@@ -1,0 +1,48 @@
+body {
+    font-family: 'Open san', sans-serif;
+    font-size: 16px;
+}
+
+.swim-lanes {
+    min-height: 60vh;
+  }
+
+.task-card {
+    margin: 0 auto;
+    cursor: grab;
+    color: white;
+  }
+
+  .bg-danger {
+    background-color: #dc3545 !important;
+  }
+
+  .bg-warning {
+    background-color: #ffc107 !important;
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  .bg-done {
+    background-color: #ffffff !important;
+    color: black;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .modal-title {
+    margin: 0 auto;
+  }
+  
+  #taskForm .form-control {
+    margin-bottom: 10px;
+  }
+  
+  #taskForm button {
+    display: block;
+    margin: 0 auto;
+  }
